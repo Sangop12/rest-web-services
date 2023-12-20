@@ -8,6 +8,6 @@ public class HelloWorldController {
     static int count = 0;
     @GetMapping("hello-world")
     public static String helloWorld(){
-        return "Hello World - From Git" + count++;
+        return "Hello World - From Git - " + count++;
     }
 }
